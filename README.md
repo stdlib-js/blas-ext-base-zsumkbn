@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import zsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-zsumkbn@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-zsumkbn/tags). For example,
+
+```javascript
 import zsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-zsumkbn@v0.1.1-esm/index.mjs';
 ```
 
@@ -151,7 +156,7 @@ var v = zsumkbn.ndarray( 2, x, 2, 1 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
-import zsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-zsumkbn@v0.1.1-esm/index.mjs';
+import zsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-zsumkbn@esm/index.mjs';
 
 var xbuf = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
