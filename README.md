@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import zsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-zsumkbn@deno/mod.js';
+import zsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-zsumkbn@v0.1.1-deno/mod.js';
 ```
 
 #### zsumkbn( N, x, strideX )
@@ -146,7 +146,7 @@ var v = zsumkbn.ndarray( 2, x, 2, 1 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@deno/mod.js';
-import zsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-zsumkbn@deno/mod.js';
+import zsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-zsumkbn@v0.1.1-deno/mod.js';
 
 var xbuf = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
