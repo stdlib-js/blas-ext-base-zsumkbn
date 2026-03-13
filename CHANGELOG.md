@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`41e2b32`](https://github.com/stdlib-js/stdlib/commit/41e2b321ee542ca7774071f7cf0f437a7d814be6) - **bench:** restore benchmark names _(by Philipp Burckhardt)_
 -   [`2d61cd4`](https://github.com/stdlib-js/stdlib/commit/2d61cd4b240dd14d3a8d91d442bcd998e80302f7) - **bench:** refactor to use string interpolation in `blas/ext/base/zsumkbn` [(#10887)](https://github.com/stdlib-js/stdlib/pull/10887) _(by Partha Das)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Partha Das
+-   Philipp Burckhardt
 
 </section>
 
