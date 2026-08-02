@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-24)
+## Unreleased (2026-08-02)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`156aaa1`](https://github.com/stdlib-js/stdlib/commit/156aaa1c98135aae4cfcb5161d5d1fcec0dd8c6a) - **bench:** update benchmarks to use decimal literals [(#13859)](https://github.com/stdlib-js/stdlib/pull/13859) _(by Philipp Burckhardt)_
 -   [`41e2b32`](https://github.com/stdlib-js/stdlib/commit/41e2b321ee542ca7774071f7cf0f437a7d814be6) - **bench:** restore benchmark names _(by Philipp Burckhardt)_
 -   [`2d61cd4`](https://github.com/stdlib-js/stdlib/commit/2d61cd4b240dd14d3a8d91d442bcd998e80302f7) - **bench:** refactor to use string interpolation in `blas/ext/base/zsumkbn` [(#10887)](https://github.com/stdlib-js/stdlib/pull/10887) _(by Partha Das)_
 
